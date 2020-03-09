@@ -411,6 +411,10 @@ fieldset[disabled] .btn-theme {
   margin-bottom: 30px;
 }
 
+#experience-logo {
+		width: 70px;
+}
+
 .service:hover .service-element {
   opacity: 0;
   -webkit-transform: translate3d(0, -100%, 0);

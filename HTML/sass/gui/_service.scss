@@ -10,6 +10,7 @@
 	.service-info {
 		@include translate3d(0,0,0);
 		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+		width: 60px;
 	}
 
 	.service-icon {
@@ -17,6 +18,12 @@
 		@include font($size: 30px);
 		color: $color-link-hover;
 		margin-bottom: 30px;
+	}
+
+
+	#experience-logo {
+		// display: block;
+		width: 70px;
 	}
 
 	&:hover {
